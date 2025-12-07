@@ -1,0 +1,33 @@
+export const getWeatherDescription = (code) => {
+  const descriptions = {
+    0: 'Cerah',
+    1: 'Berawan Cerah',
+    2: 'Berawan',
+    3: 'Berawan Tebal',
+    45: 'Berkabut',
+    48: 'Berkabut Beku',
+    51: 'Gerimis Ringan',
+    53: 'Gerimis Sedang',
+    55: 'Gerimis Lebat',
+    56: 'Gerimis Beku Ringan',
+    57: 'Gerimis Beku Lebat',
+    61: 'Hujan Ringan',
+    63: 'Hujan Sedang',
+    65: 'Hujan Lebat',
+    66: 'Hujan Beku Ringan',
+    67: 'Hujan Beku Lebat',
+    71: 'Salju Ringan',
+    73: 'Salju Sedang',
+    75: 'Salju Lebat',
+    77: 'Butiran Salju',
+    80: 'Hujan Gerimis Ringan',
+    81: 'Hujan Gerimis Sedang',
+    82: 'Hujan Gerimis Lebat',
+    85: 'Hujan Salju Ringan',
+    86: 'Hujan Salju Lebat',
+    95: 'Badai Petir',
+    96: 'Badai Petir dengan Hujan Es Ringan',
+    99: 'Badai Petir dengan Hujan Es Lebat',
+  };
+  return descriptions[code] || 'Tidak Diketahui';
+};
