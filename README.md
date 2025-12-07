@@ -74,8 +74,8 @@ weather-tracker/
 
 ### 1. Clone Repository
 ```bash
-git clone <URL_REPOSITORY_KAMU>
-cd weather-tracker
+git clone https://github.com/BRIGHTZ-SEC/Weather-Tracker
+cd Weather-Tracker
 ```
 
 ### 2. Instalasi Backend
